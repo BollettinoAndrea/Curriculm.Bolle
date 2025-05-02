@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    display: block;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .item input {
+    width: 70%;
+    border: none;
+    background: transparent;
+    font-size: 1em;
+  }
+  
+  .actions button {
+    margin-left: 5px;
+    padding: 5px 8px;
+  }
+  

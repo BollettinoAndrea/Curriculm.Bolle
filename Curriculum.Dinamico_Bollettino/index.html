@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curriculum Dinamico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Curriculum Dinamico</h1>
+    <form id="cvForm">
+        
+      <fieldset>
+        <legend>Dati Personali</legend>
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="cognome" placeholder="Cognome" required>
+        <input type="text" id="indirizzo" placeholder="Indirizzo" required>
+        <input type="date" id="dataNascita" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Titoli di Studio</legend>
+        <div id="titoliContainer"></div>
+        <input type="text" id="titoloInput" placeholder="Aggiungi un titolo di studio">
+        <button type="button" onclick="aggiungiTitolo()">Aggiungi Titolo</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Esperienze Lavorative</legend>
+        <div id="esperienzeContainer"></div>
+        <input type="text" id="esperienzaInput" placeholder="Aggiungi un'esperienza lavorativa">
+        <button type="button" onclick="aggiungiEsperienza()">Aggiungi Esperienza</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
